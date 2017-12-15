@@ -2,17 +2,15 @@
 server:
   port: 9001
 
-# SPRING PROFILES
 spring:
     # DATASOURCE
     datasource:
+        name: druidDataSource
         url: jdbc:mysql://192.168.0.10:4408/mob_ad?useUnicode=true&characterEncoding=utf-8
         username: root
         password: mobcb
         # 使用druid数据源
         driverClassName: com.mysql.jdbc.Driver
-
-
 #mybatis config
 mybatis:
   config-location: classpath:mybatis-config.xml
