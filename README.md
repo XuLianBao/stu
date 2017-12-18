@@ -1,2 +1,2 @@
 # stu 
-this is just mine example study 
+this is just mine example of  study 
