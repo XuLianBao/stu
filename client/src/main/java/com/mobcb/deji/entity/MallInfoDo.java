@@ -13,7 +13,6 @@ import javax.persistence.Table;
 /**
  * MallInfoDo : 商场信息Dto
  *
- * @author storm
  * @version 1.00
  * @since 2017-01-11 16:44
  */

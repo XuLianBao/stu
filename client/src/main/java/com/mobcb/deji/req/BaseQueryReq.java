@@ -10,7 +10,6 @@ import java.io.Serializable;
 /**
  * BaseQueryReq : 基础分页公共查询类
  *
- * @author storm
  * @version 1.00
  * @since 2017-03-18 14:45
  */

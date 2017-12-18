@@ -1,2 +1,2 @@
-# plant-form-repo
-配置文件
+# stu 
+this is just mine example study 

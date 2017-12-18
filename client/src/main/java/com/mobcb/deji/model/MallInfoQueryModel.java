@@ -6,7 +6,6 @@ package com.mobcb.deji.model;
 /**
  * MallInfoQueryModel : 商场查询model
  *
- * @author xue.zewen
  * @version 1.00
  * @since 2017-02-24 15:12
  */

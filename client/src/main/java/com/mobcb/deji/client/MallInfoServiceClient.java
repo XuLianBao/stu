@@ -21,7 +21,6 @@ import java.util.List;
 import static com.mobcb.deji.client.MallInfoServiceClient.PATH;
 
 /**
- * MallInfoServiceClient : 商场信息服务接口客户端
  *
  * @version 1.00
  * @since 2017-01-16 17:21

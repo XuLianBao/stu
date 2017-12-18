@@ -12,7 +12,6 @@ import java.io.Serializable;
  * Des: 基础 查询模型对象；
  * 此类包含了 通用的 分页 信息以及排序 信息
  * 所有的业务查询模型，要 继承 此类
- * Created by UlverYang on 2016-04-15 14:07.
  */
 public class BaseQueryModel implements Serializable {
 

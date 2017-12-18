@@ -22,7 +22,6 @@ import java.util.List;
 import static com.mobcb.deji.client.MallInfoServiceClient.PATH;
 
 /**
- * @author chenming
  * @version 1.00
  * @since 11:40 2017-02-23
  */
