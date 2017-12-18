@@ -1,6 +1,7 @@
 package com.mobcb.deji.ctrl;
 
 import com.mobcb.deji.client.MallInfoServiceClient;
+import com.mobcb.deji.config.YmlConfig;
 import com.mobcb.deji.entity.MallInfoDo;
 import com.mobcb.deji.model.BaseQueryModel;
 import com.mobcb.deji.model.MallInfoQueryModel;
@@ -41,6 +42,9 @@ public class MallInfoCtrl implements MallInfoServiceClient{
     @Autowired
     MallInfoServiceClient mallServer;
 
+    @Autowired
+    YmlConfig ymlConfig;
+
     /**
      * 异步获取列表数据
      *
@@ -59,7 +63,7 @@ public class MallInfoCtrl implements MallInfoServiceClient{
 
     @Override
     public String isSuccess(@RequestParam("name") String name) {
-        return "yes "+name;
+        return "yes "+name+ymlConfig.getSimpleProp();
     }
 
     @RequestMapping(value = "", method = RequestMethod.GET)
