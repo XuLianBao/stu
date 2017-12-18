@@ -1,6 +1,4 @@
-/**
- *   Copyright (c) 2014-2017 墨博云舟 All Rights Reserved. 
- */
+
 package com.mobcb.deji.model;
 
 /**

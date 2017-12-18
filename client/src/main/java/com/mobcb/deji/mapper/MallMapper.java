@@ -1,6 +1,4 @@
-/**
- * Copyright (C) 2014-2017 南京墨博云舟信息科技有限公司 All Rights Reserved.
- */
+
 package com.mobcb.deji.mapper;
 
 import com.mobcb.deji.entity.MallInfoDo;
