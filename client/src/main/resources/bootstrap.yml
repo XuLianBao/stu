@@ -1,6 +1,6 @@
 spring:
   application:
-    name: baseinfo
+    name: mallInfo
   cloud:
     config:
       uri: http://${env.hostname.config:localhost}:8888

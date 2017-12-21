@@ -22,8 +22,7 @@ import static com.mobcb.deji.client.MallInfoServiceClient.PATH;
  * @version 1.00
  * @since 2017-01-16 17:21
  */
-@Component
-@FeignClient(name = "baseInfo", path = PATH)
+@FeignClient(name = "mallInfo", path = PATH)
 public interface MallInfoServiceClient {
     String PATH = "service/v1/baseinfos/malls";
 

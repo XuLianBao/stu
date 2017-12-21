@@ -16,7 +16,6 @@ import java.util.List;
  *@since 2017/12/14 10:10
  */
 public interface MallInfoService {
-
     List<MallInfoDo> findAll(String name);
     List<MallInfoDo> selectListOrPageBySql(BaseQueryModel queryModel);
 }
